@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Permissions</h1>
+    <a href="{{ path('Permission_new') }}">Create New Permission</a>
+
+    <ul>
+        {% for Permission in Permissions %}
+            <li>{{ Permission.name }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

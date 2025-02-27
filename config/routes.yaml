@@ -3,3 +3,27 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+Role_index:
+    path: /admin/roles
+    controller: App\Controller\RoleController::index
+
+Role_new:
+    path: /admin/roles/new
+    controller: App\Controller\RoleController::new
+
+permissions_index:
+    path: /admin/permissions
+    controller: App\Controller\PermissionController::index
+
+permissions_new:
+    path: /admin/permissions/new
+    controller: App\Controller\PermissionController::new
+
+role_permission_index:
+    path: /admin/role-permissions
+    controller: App\Controller\RolePermissionController::index
+
+role_permission_edit:
+    path: /admin/role-permissions/edit/{id}
+    controller: App\Controller\RolePermissionController::edit

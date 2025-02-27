@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}User Management{% endblock %}
+
+{% block body %}
+<h2>User List</h2>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Email</th>
+        <th>Current Role</th>
+        <th>Action</th>
+    </tr>
+    {% for user in users %}
+    <tr>
+        <td>{{ user.id }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.roles|join(', ') }}</td>
+        <td>
+            <a href="{{ path('assign_role', {'id': user.id}) }}">Assign Role</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

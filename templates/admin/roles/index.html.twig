@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Roles Management{% endblock %}
+
+{% block body %}
+<h1>Roles</h1>
+<a href="{{ path('Role_new') }}" class="btn btn-primary">Create New Role</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for Role in roles %}
+            <tr>
+                <td>{{ Role.id }}</td>
+                <td>{{ Role.name }}</td>
+                <td>{{ Role.description }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

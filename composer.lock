@@ -7397,7 +7397,7 @@
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com",
                     "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "Role": "Lead Developer"
                 }
             ],
             "description": "A Symfony bundle for extra Twig extensions",
@@ -7468,16 +7468,16 @@
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com",
                     "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "Role": "Lead Developer"
                 },
                 {
                     "name": "Twig Team",
-                    "role": "Contributors"
+                    "Role": "Contributors"
                 },
                 {
                     "name": "Armin Ronacher",
                     "email": "armin.ronacher@active-4.com",
-                    "role": "Project Founder"
+                    "Role": "Project Founder"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
@@ -7787,17 +7787,17 @@
                 {
                     "name": "Arne Blankerts",
                     "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "Role": "Developer"
                 },
                 {
                     "name": "Sebastian Heuer",
                     "email": "sebastian@phpeople.de",
-                    "role": "Developer"
+                    "Role": "Developer"
                 },
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "Developer"
+                    "Role": "Developer"
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
@@ -7844,17 +7844,17 @@
                 {
                     "name": "Arne Blankerts",
                     "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "Role": "Developer"
                 },
                 {
                     "name": "Sebastian Heuer",
                     "email": "sebastian@phpeople.de",
-                    "role": "Developer"
+                    "Role": "Developer"
                 },
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "Developer"
+                    "Role": "Developer"
                 }
             ],
             "description": "Library for handling version information and constraints",
@@ -7919,7 +7919,7 @@
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "Role": "lead"
                 }
             ],
             "description": "Library that provides collection, processing, and rendering functionality for PHP code coverage information.",
@@ -7981,7 +7981,7 @@
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "Role": "lead"
                 }
             ],
             "description": "FilterIterator implementation that filters files based on a list of suffixes.",
@@ -8045,7 +8045,7 @@
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "Role": "lead"
                 }
             ],
             "description": "Invoke callables with a timeout",
@@ -8104,7 +8104,7 @@
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "Role": "lead"
                 }
             ],
             "description": "Simple template engine.",
@@ -8163,7 +8163,7 @@
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "Role": "lead"
                 }
             ],
             "description": "Utility class for timing",
@@ -8255,7 +8255,7 @@
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "Role": "lead"
                 }
             ],
             "description": "The PHP Unit Testing framework.",
@@ -8325,7 +8325,7 @@
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "Role": "lead"
                 }
             ],
             "description": "Library for parsing CLI options",
@@ -8381,7 +8381,7 @@
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "Role": "lead"
                 }
             ],
             "description": "Collection of value objects that represent the PHP code units",
@@ -8567,7 +8567,7 @@
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "Role": "lead"
                 }
             ],
             "description": "Library for calculating the complexity of PHP code units",
@@ -8894,7 +8894,7 @@
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "Role": "lead"
                 }
             ],
             "description": "Library for counting the lines of code in PHP source code",
@@ -9179,7 +9179,7 @@
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "Role": "lead"
                 }
             ],
             "description": "Collection of value objects that represent the types of the PHP type system",
@@ -9232,7 +9232,7 @@
                 {
                     "name": "Sebastian Bergmann",
                     "email": "sebastian@phpunit.de",
-                    "role": "lead"
+                    "Role": "lead"
                 }
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
@@ -9813,7 +9813,7 @@
                 {
                     "name": "Arne Blankerts",
                     "email": "arne@blankerts.de",
-                    "role": "Developer"
+                    "Role": "Developer"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",

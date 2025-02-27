@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Assign Role{% endblock %}
+
+{% block body %}
+<h2>Assign Role to {{ user.email }}</h2>
+
+<form method="post">
+    <label for="role">Select Role:</label>
+    <select name="role" id="role">
+        <option value="ROLE_USER">User</option>
+        <option value="ROLE_ADMIN">Admin</option>
+    </select>
+    <button type="submit">Assign Role</button>
+</form>
+
+<a href="{{ path('admin_users') }}">Back to Users</a>
+{% endblock %}

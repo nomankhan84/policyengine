@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<h2>Manage Role Permissions</h2>
+<table border="1">
+    <tr>
+        <th>Role Name</th>
+        <th>Actions</th>
+    </tr>
+    {% for role in roles %}
+    <tr>
+        <td>{{ role.name }}</td>
+        <td><a href="{{ path('role_permission_edit', {id: role.id}) }}">Edit Permissions</a></td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
