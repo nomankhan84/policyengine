@@ -77,6 +77,19 @@ Your application will be available at **http://127.0.0.1:8000**
 | Sub App Admin  | Access to only their app |
 | Sub App Dev    | Access to only their app |
 
+
+## **Project Links**
+| Feature | URL |
+|---------|-----|
+| **Register** | [http://127.0.0.1:8000/register](http://127.0.0.1:8000/register) |
+| **Login** | [http://127.0.0.1:8000/login](http://127.0.0.1:8000/login) |
+| **Dashboard** | [http://127.0.0.1:8000/dashboard](http://127.0.0.1:8000/dashboard) |
+| **Users List** | [http://127.0.0.1:8000/admin/users](http://127.0.0.1:8000/admin/users) |
+| **Assign Roles to Users** | [http://127.0.0.1:8000/admin/users/{id}/assign-role](http://127.0.0.1:8000/admin/users/{id}/assign-role) |
+| **Roles Management** | [http://127.0.0.1:8000/admin/roles](http://127.0.0.1:8000/admin/roles) |
+| **Permissions Management** | [http://127.0.0.1:8000/admin/permissions](http://127.0.0.1:8000/admin/permissions) |
+
+
 ## 📌 Future Enhancements
 - Implement **2FA authentication** for better security.
 - Add **logging & monitoring** for access control actions.
@@ -97,4 +110,3 @@ This project is licensed under the MIT License.
 
 ---
 **🎉 Done! Now your project is documented properly! 🚀**
-
